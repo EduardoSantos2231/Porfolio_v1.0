@@ -12,9 +12,9 @@ export default function Header() {
 
             <nav className="p-2">
             <ul className="flex gap-4">
-              <li className="hover:underline ease-in hover:decoration-blue-600 hover:scale-110 transition"><Link to={"#"}>Contato</Link></li>
-              <li className="hover:underline ease-inhover:decoration-blue-600 hover:scale-110 transition"><Link to={"#"}>Sobre mim</Link></li>
-              <li className="hover:underline ease-inhover:decoration-blue-600 hover:scale-110 transition"><Link to={"#"}>Projetos</Link></li>
+              <li className="hover:underline ease-in hover:decoration-blue-600 hover:scale-110 transition"><Link to={"contact"}>Contato</Link></li>
+              <li className="hover:underline ease-inhover:decoration-blue-600 hover:scale-110 transition"><Link to={"about"}>Sobre mim</Link></li>
+              <li className="hover:underline ease-inhover:decoration-blue-600 hover:scale-110 transition"><Link to={"projects"}>Projetos</Link></li>
             </ul>
             </nav>
         </header>
