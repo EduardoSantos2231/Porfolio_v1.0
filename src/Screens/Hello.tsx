@@ -31,7 +31,7 @@ export default function Hello() {
               />
           </h1>
         </span>
-        <button className="text-black font-stretch-75% p-4 bg-linear-65 from-purple-200 to-pink-400 hover:shadow-blue-50 hover:shadow-sm opacity-85 rounded-2xl text-2xl font-extrabold hover:scale-110 transition cursor-pointer">
+        <button className="hover:opacity-70 text-black font-stretch-75% p-4 bg-linear-65 from-purple-200 to-pink-400 hover:shadow-blue-50 hover:shadow-sm opacity-85 rounded-2xl text-2xl font-extrabold hover:scale-110 transition cursor-pointer">
          <Link to={"/projects"}>Projetos</Link> 
         </button>
     </div>
