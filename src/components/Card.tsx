@@ -1,11 +1,11 @@
-interface cardOptions{
+export interface cardsData{
     title: string,
     description: string,
     link: string
 }
 
 
-export default function Card({title, description, link}: cardOptions) {
+export default function Card({title, description, link}: cardsData) {
   return (
     <div className="rounded-br-md bg-linear-to-r text-black from-indigo-500 via-indigo-300 to-indigo-200 w-72 h-72 text-center flex flex-col p-5 shadow-md shadow-blue-700">
         
