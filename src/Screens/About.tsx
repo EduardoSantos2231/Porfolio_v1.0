@@ -5,7 +5,7 @@ export default function About() {
     <div className="flex w-full m-4 p-4 flex-col md:justify-around gap-4 ">
 
         <div className="justify-center flex">
-            <img className="size-40 md:size-60 rounded-full border border-4" src={photo_preview} alt="Eduardo sorrindo" />
+            <img className="size-40 md:size-60 rounded-full border-4" src={photo_preview} alt="Eduardo sorrindo" />
         </div>
 
         <div className="flex w-full flex-col">
