@@ -7,10 +7,10 @@ export default function Projects() {
     <div className="min-w-full flex flex-row justify-center mt-5 gap-4 flex-wrap">
         <Card title="Timer" description="Um projeto que realizei durante a fase de aprendizado de 
         manipulação do DOM e funções nativas do javascript, implementei funções de pausar, continuar e começar o timer." 
-        link="https://dudu2231.github.io/Timer/"/>
+        link="https://eduardosantos2231.github.io/Timer/"/>
 
         <Card title="Lista de Tarefas" description="Um projeto clássico e interessante para entender o uso de funcionalidades e uso de hooks no react. Foi um dos primeiros que criei com a biblioteca."
-        link="https://dudu2231.github.io/ListaTarefas/"/>
+        link="https://eduardosantos2231.github.io/ListaTarefas/"/>
     </div>
   )
 }

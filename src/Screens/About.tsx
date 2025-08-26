@@ -57,7 +57,7 @@ export default function About() {
         </div>
         <span className="flex gap-3 items-center justify-center">
             <FaFileDownload size={30}/>
-            <a href="../../public/curriculo.pdf"> Veja meu currículo</a>
+            <a href="../../public/curriculo.pdf" className="p-4 border rounded"> Veja meu currículo</a>
         </span>
 
     </div>
