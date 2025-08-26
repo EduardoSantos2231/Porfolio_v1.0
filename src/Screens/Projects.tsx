@@ -1,18 +1,16 @@
 import Card from "@/components/Card"
-import { useState } from "react"
-import { type cardsData } from "@/components/Card"
+
 
 
 export default function Projects() {
-    const [cards, setCards] = useState<cardsData[]| null>(null)
   return (
     <div className="min-w-full flex flex-row justify-center mt-5 gap-4 flex-wrap">
-        {cards && cards.length> 0? cards.map((project)=> (
-            <Card description={project.description} link={project.link} title={project.title}/>
-            )
-        ):
-            <></>
-        }
+        <Card title="Timer" description="Um projeto que realizei durante a fase de aprendizado de 
+        manipulação do DOM e funções nativas do javascript, implementei funções de pausar, continuar e começar o timer." 
+        link="https://dudu2231.github.io/Timer/"/>
+
+        <Card title="Lista de Tarefas" description="Um projeto clássico e interessante para entender o uso de funcionalidades e uso de hooks no react. Foi um dos primeiros que criei com a biblioteca."
+        link="https://dudu2231.github.io/ListaTarefas/"/>
     </div>
   )
 }
