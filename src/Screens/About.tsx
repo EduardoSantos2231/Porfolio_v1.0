@@ -1,5 +1,6 @@
 import photo_preview from "@/assets/first_opt.png"
 import Descriptional from "@/components/Descriptional"
+import { FaFileDownload } from "react-icons/fa";
 
 export default function About() {
   return (
@@ -54,8 +55,10 @@ export default function About() {
                 <li><strong>Resolução de Problemas:</strong> Vejo cada desafio como uma oportunidade para desenvolver soluções criativas e eficientes.</li>
             </ul>
         </div>
-        
-        <button>Veja meu currículo</button>
+        <span className="flex gap-3 items-center justify-center">
+            <FaFileDownload size={30}/>
+            <a href="../../public/curriculo.pdf"> Veja meu currículo</a>
+        </span>
 
     </div>
   )
