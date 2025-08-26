@@ -2,6 +2,8 @@
 import "@/App.css"
 import { Link } from "react-router-dom";
 import Typewriter from 'typewriter-effect';
+import PinkBubble from "@/components/PinkBubble";
+import GrayBubble from "@/components/GrayBubble";
 
 export default function Hello() {
 
@@ -10,9 +12,8 @@ export default function Hello() {
     <div className="flex relative items-center justify-center w-full overflow-hidden">
 
     <div className="size-70 top-30 -left-50 absolute rounded-full bg-radial-[at_40%_80%] from-sky-200 via-blue-400 to-indigo-900 to-90%  bg-blue-500  float "></div>
-    <div className="size-60 top-60 -right-40 absolute rounded-full bg-radial-[at_30%_40%] float from-purple-300 to-purple-400 to-75%"></div>
-    <div className="size-28 bottom-0 left-1 absolute rounded-full bg-radial-[at_30%_40%] float from-white to-zinc-900 to-75%"></div>
-    
+    <PinkBubble/>
+    <GrayBubble/>
     <div className="z-1 items-center flex flex-col gap-5 md:gap-7 p-3">
         <span className="text-center">
           <h1 className="font-sans font-extrabold text-4xl md:text-6xl bg-linear-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
