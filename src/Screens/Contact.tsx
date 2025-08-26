@@ -7,7 +7,7 @@ import { CiMail } from "react-icons/ci";
 
 export default function Contact() {
   return (
-    <div className="flex w-full my-10 flex-col items-center md:justify-center md:gap-5 relative overflow-hidden">
+    <div className="flex w-full gap-3 my-10 flex-col items-center md:justify-center md:gap-5 relative overflow-hidden">
         <div className="hover:scale-110 transition cursor-pointerw h-fit flex-col">
           <span className="flex flex-row items-center gap-2">
           <FaLinkedin size={30}/>
@@ -26,7 +26,7 @@ export default function Contact() {
             <Descriptional title="Github" description=""/>
           </span>
          <a href="https://github.com/EduardoSantos2231" target="_blank">
-            <p>Veja meus códigos</p>
+            <p className="underline decoration-blue-400">Veja meus códigos</p>
          </a>
         </div>
 
@@ -36,7 +36,7 @@ export default function Contact() {
             <Descriptional title="Email" description=""/>
            </span>
          <a href="mailto:denoticiadose@gmail.com">
-           <p>Entre em contato</p>
+           <p className="underline decoration-blue-400">Entre em contato</p>
          </a>
         </div>
         <PinkBubble/>
