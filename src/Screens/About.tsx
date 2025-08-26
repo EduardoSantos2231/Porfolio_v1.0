@@ -1,6 +1,6 @@
 import photo_preview from "@/assets/first_opt.png"
 import Descriptional from "@/components/Descriptional"
-import { FaFileDownload } from "react-icons/fa";
+import { MdDownload } from "react-icons/md";
 
 export default function About() {
   return (
@@ -56,8 +56,10 @@ export default function About() {
             </ul>
         </div>
         <span className="flex gap-3 items-center justify-center">
-            <FaFileDownload size={30}/>
-            <a href="../../public/curriculo.pdf" className="p-4 border rounded"> Veja meu currículo</a>
+            <a href="../../public/curriculo.pdf" className="p-4 rounded flex gap-2 items-end"> 
+            <MdDownload size={30}/>
+            <Descriptional title="Veja meu currículo" description=""/>
+            </a>
         </span>
 
     </div>
