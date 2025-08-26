@@ -46,7 +46,7 @@ export default function About() {
             </ul>
 
             <Descriptional title="Habilidades" description="" />
-            <ul className="text-lg">
+            <ul className="text-lg flex flex-col gap-1">
                 <li><strong>Determinação e Compromisso com o Aprendizado:</strong> Busco constantemente me aprofundar em novas tecnologias e conceitos, garantindo que meu conhecimento esteja sempre atualizado.</li>
                 <li><strong>Proatividade</strong>: Não espero que os problemas apareçam, mas sim busco antecipá-los e propor soluções eficazes.</li>
                 <li><strong>Comunicação:</strong> Tenho facilidade em transmitir ideias complexas de forma clara e objetiva, tanto para colegas de equipe quanto para clientes.</li>
@@ -55,6 +55,7 @@ export default function About() {
             </ul>
         </div>
         
+        <button>Veja meu currículo</button>
 
     </div>
   )
