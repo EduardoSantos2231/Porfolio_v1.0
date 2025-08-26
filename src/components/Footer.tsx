@@ -6,12 +6,6 @@ export default function Footer() {
         <li>
           &copy; Eduardo Nascimento
         </li>
-        <li>
-          Github
-        </li>
-        <li>
-          Linkedin
-        </li>
       </ul>
       
     </div>
