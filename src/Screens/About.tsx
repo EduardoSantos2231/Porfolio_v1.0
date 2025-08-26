@@ -39,10 +39,19 @@ export default function About() {
 
         <div className="flex w-full flex-col">
             <ul className="underline decoration-1 decoration-blue-500 text-lg">
-                <li>Front-end: React, JavaScript, TypeScript e Tailwind.</li>
-                <li>Back-end: Node.js, Express.</li>
-                <li>Banco de Dados: PostgreSQL.</li>
-                <li>Controle de Versão: Git.</li>
+                <li><strong>Front-end:</strong> React, JavaScript, TypeScript e Tailwind.</li>
+                <li><strong>Back-end:</strong> Node.js, Express.</li>
+                <li><strong>Banco de Dados:</strong> PostgreSQL.</li>
+                <li><strong>Controle de Versão:</strong> Git.</li>
+            </ul>
+
+            <Descriptional title="Habilidades" description="" />
+            <ul className="text-lg">
+                <li><strong>Determinação e Compromisso com o Aprendizado:</strong> Busco constantemente me aprofundar em novas tecnologias e conceitos, garantindo que meu conhecimento esteja sempre atualizado.</li>
+                <li><strong>Proatividade</strong>: Não espero que os problemas apareçam, mas sim busco antecipá-los e propor soluções eficazes.</li>
+                <li><strong>Comunicação:</strong> Tenho facilidade em transmitir ideias complexas de forma clara e objetiva, tanto para colegas de equipe quanto para clientes.</li>
+                <li><strong>Colaboração:</strong> Acredito que o melhor código é feito em equipe, e valorizo a troca de conhecimento para alcançar resultados excepcionais.</li>
+                <li><strong>Resolução de Problemas:</strong> Vejo cada desafio como uma oportunidade para desenvolver soluções criativas e eficientes.</li>
             </ul>
         </div>
         
