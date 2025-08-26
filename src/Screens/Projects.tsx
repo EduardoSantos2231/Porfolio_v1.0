@@ -9,7 +9,7 @@ export default function Projects() {
         manipulação do DOM e funções nativas do javascript, implementei funções de pausar, continuar e começar o timer." 
         link="https://eduardosantos2231.github.io/Timer/"/>
 
-        <Card title="Lista de Tarefas" description="Um projeto clássico e interessante para entender o uso de funcionalidades e uso de hooks no react. Foi um dos primeiros que criei com a biblioteca."
+        <Card title="Lista de Tarefas" description="Um projeto clássico e interessante para entender o uso de funcionalidades e uso de hooks no react. Foi um dos primeiros projetos que criei com a biblioteca."
         link="https://eduardosantos2231.github.io/ListaTarefas/"/>
     </div>
   )

@@ -1,3 +1,5 @@
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 interface cardsData{
     title: string,
     description: string,
@@ -7,14 +9,18 @@ interface cardsData{
 
 export default function Card({title, description, link}: cardsData) {
   return (
-    <div className="rounded-br-md bg-linear-to-r text-black from-indigo-500 via-indigo-300 to-indigo-200 w-72 h-70 text-center flex flex-col p-5 shadow-md shadow-blue-700">
+    <div className="rounded-sm w-72 h-70 text-center flex flex-col p-6 bg-gray-800/30 gap-2">
         
         <div className="my-auto">
-            <h1 className="font-bold h-11 text-2xl">{title}</h1>
+            <h1 className="font-bold h-11 text-2xl underline decoration-2 decoration-blue-500">
+              {title}
+            </h1>
             <p className="text-justify">{description}</p>
         </div>
         <div className="flex justify-center">
-            <p className="bg-blue-100 hover:scale-110 transition hover:opacity-90 text-lg p-2 rounded-sm font-semibold shadow-lg"><a target="_blank" href={link}>Acessar</a></p>
+            <p className="bg-blue-600 hover:scale-110 transition hover:opacity-90 text-lg p-2 rounded-sm font-semibold ">
+              <a className="flex gap-2" target="_blank" href={link}><FaExternalLinkAlt size={30}/>Ver</a>
+            </p>
         </div>
 
     </div>
