@@ -1,30 +1,44 @@
 import Descriptional from "@/components/Descriptional";
 import GrayBubble from "@/components/GrayBubble";
 import PinkBubble from "@/components/PinkBubble";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
 
 export default function Contact() {
   return (
     <div className="flex w-full my-10 flex-col items-center md:justify-center md:gap-5 relative overflow-hidden">
-        <span className="hover:scale-110 transition cursor-pointerw  h-fit">
+        <div className="hover:scale-110 transition cursor-pointerw h-fit flex-col">
+          <span className="flex flex-row items-center gap-2">
+          <FaLinkedin size={30}/>
+          <Descriptional title="Linkedin" description=""/>
+          </span>
          <a href="https://www.linkedin.com/in/edusn/" target="_blank">
-           <Descriptional title="Linkedin" description=""/>
-            <p>Conecte-se comigo</p>
+            <p className="underline decoration-blue-400">Conecte-se comigo</p>
          </a>
-        </span>
+        </div>
 
         <div className="size-80 bg-radial from-blue-500 opacity-90 to-blue-500 rounded-full float absolute top-10 -left-50 md:-left-44"></div>
 
-        <span className="hover:scale-110 transition cursor-pointer h-fit z-1">
+        <div className="hover:scale-110 transition cursor-pointer h-fit z-1">
+          <span className="flex flex-row gap-2">
+            <FaGithub size={30}/>
+            <Descriptional title="Github" description=""/>
+          </span>
          <a href="https://github.com/EduardoSantos2231" target="_blank">
-           <Descriptional title="Github" description=""/>
             <p>Veja meus códigos</p>
          </a>
-        </span>
+        </div>
 
-        <span className="hover:scale-110 transition cursor-pointer h-fit z-1">
-         <Descriptional title="Email" description=""/>
-         <p>Entre em contato</p>
-        </span>
+        <div className="hover:scale-110 transition cursor-pointer h-fit z-1">
+           <span className="flex flex-row gap-2">
+            <CiMail size={30}/>
+            <Descriptional title="Email" description=""/>
+           </span>
+         <a href="mailto:denoticiadose@gmail.com">
+           <p>Entre em contato</p>
+         </a>
+        </div>
         <PinkBubble/>
         <GrayBubble/>
       
