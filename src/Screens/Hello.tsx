@@ -21,10 +21,10 @@ export default function Hello() {
                 onInit={(typewriter) => {
                   typewriter
                     .typeString("Olá, sou o Eduardo")
-                    .pauseFor(2000)
+                    .pauseFor(1000)
                     .deleteAll()
                     .typeString("Transformo ideias em projetos que ganham vida")
-                    .pauseFor(2000)
+                    .pauseFor(1000)
                     .deleteAll()
                     .typeString("Bem-vindo ao meu portfólio!")
                     .start()
@@ -33,7 +33,7 @@ export default function Hello() {
           </h1>
         </span>
         <button className="text-gray-900 font-stretch-75% p-4 bg-linear-65 from-purple-200 to-pink-400 hover:shadow-blue-50 hover:shadow-sm rounded-2xl text-2xl font-extrabold hover:scale-110 transition cursor-pointer">
-         <Link to={"/projects"}>Projetos</Link> 
+         <Link to={"/about"}>Sobre mim</Link> 
         </button>
     </div>
         
