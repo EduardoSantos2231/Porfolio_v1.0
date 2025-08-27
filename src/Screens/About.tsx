@@ -56,7 +56,7 @@ export default function About() {
             </ul>
         </div>
         <span className="flex gap-3 items-center justify-center">
-            <a href="../../public/curriculo.pdf" className="p-4 rounded flex gap-2 items-end"> 
+            <a href="https://drive.google.com/file/d/1uZxj_NriSQE760yRJTMy4sGvxXyZTR5d/view?usp=drive_link" className="p-4 rounded flex gap-2 items-end"> 
             <MdDownload size={30}/>
             <Descriptional title="Veja meu currículo" description=""/>
             </a>
