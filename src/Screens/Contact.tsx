@@ -4,6 +4,7 @@ import PinkBubble from "@/components/PinkBubble";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
+import ContactCard from "@/components/ContactCard";
 
 export default function Contact() {
   return (
@@ -20,15 +21,9 @@ export default function Contact() {
 
         <div className="size-80 bg-radial from-blue-500 opacity-90 to-blue-500 rounded-full float absolute top-10 -left-50 md:-left-44"></div>
 
-        <div className="hover:scale-110 transition cursor-pointer h-fit z-1">
-          <span className="flex flex-row gap-2">
-            <FaGithub size={30}/>
-            <Descriptional title="Github" description=""/>
-          </span>
-         <a href="https://github.com/EduardoSantos2231" target="_blank">
-            <p className="underline decoration-blue-400">Veja meus códigos</p>
-         </a>
-        </div>
+        <ContactCard callTo="Veja meus códigos" 
+        icon={FaGithub} 
+        link="https://github.com/EduardoSantos2231" title="Github"/>
 
         <div className="hover:scale-110 transition cursor-pointer h-fit z-1">
            <span className="flex flex-row gap-2">
