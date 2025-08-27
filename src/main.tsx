@@ -15,7 +15,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='contact' element={<Contact/>} />
     <Route path='*' element={<NotFound/>}/>
   </Route>
-))
+), {basename: "/porfolio_v1.0/"})
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
