@@ -11,7 +11,7 @@ export default function Header() {
             </div>
 
             <nav className="p-2">
-            <ul className="flex gap-4 text-xl">
+            <ul className="flex gap-4 text-sm md:text-lg">
               <li className="hover:underline ease-in hover:decoration-blue-600 hover:scale-110 transition"><Link to={"contact"}>Contato</Link></li>
               <li className="hover:underline ease-in hover:decoration-blue-600 hover:scale-110 transition"><Link to={"about"}>Sobre mim</Link></li>
               <li className="hover:underline ease-in hover:decoration-blue-600 hover:scale-110 transition"><Link to={"projects"}>Projetos</Link></li>
