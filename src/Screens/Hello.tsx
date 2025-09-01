@@ -16,7 +16,7 @@ export default function Hello() {
     <GrayBubble/>
     <div className="z-1 items-center flex flex-col gap-5 md:gap-7 p-3">
         <span className="text-center">
-          <h1 className="font-sans font-extrabold text-4xl md:text-6xl bg-linear-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <h1 className="font-sans font-extrabold text-4xl md:text-6xl bg-linear-to-r from-pink-500 via-purple-500 to-indigo-400 bg-clip-text text-transparent">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
