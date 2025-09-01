@@ -11,7 +11,7 @@ export default function Hello() {
   return (
     <div className="flex relative items-center justify-center w-full overflow-hidden">
 
-    <div className="size-70 top-30 -left-50 absolute rounded-full bg-radial-[at_40%_80%] from-sky-200 via-blue-400 to-indigo-900 to-90%  bg-blue-500  float "></div>
+    <div className="size-70 top-10 -left-50 absolute rounded-full bg-radial-[at_40%_80%] from-sky-200 via-blue-400 to-indigo-900 to-90%  bg-blue-500  float "></div>
     <PinkBubble/>
     <GrayBubble/>
     <div className="z-1 items-center flex flex-col gap-5 md:gap-7 p-3">
