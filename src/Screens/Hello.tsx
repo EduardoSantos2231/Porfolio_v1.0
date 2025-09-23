@@ -23,16 +23,13 @@ export default function Hello() {
                     .typeString("Olá, sou o Eduardo")
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString("Transformo ideias em projetos que ganham vida")
-                    .pauseFor(1000)
-                    .deleteAll()
-                    .typeString("Bem-vindo ao meu portfólio!")
+                    .typeString("Bem-vindo ao meu portfólio")
                     .start()
                 }}
               />
           </h1>
         </span>
-        <button className="text-gray-900 font-stretch-75% p-4 bg-linear-65 from-purple-200 to-pink-400 hover:shadow-blue-50 hover:shadow-sm rounded-2xl text-2xl font-extrabold hover:scale-110 transition cursor-pointer">
+        <button className="text-white bg-gradient-to-br md:bg-none from-[#4A00E0] to-[#8E2DE2] p-4 hover:shadow-blue-50 hover:shadow-sm rounded-2xl text-2xl font-extrabold hover:scale-110 transition cursor-pointer">
          <Link to={"/about"}>Sobre mim</Link> 
         </button>
     </div>
