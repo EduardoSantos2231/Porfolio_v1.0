@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import profile_pic from "@/assets/first_opt.png"
+
 export default function Header() {
   return (
     <div className="flex text-white font-bold font-stretch-condensed md:text-xl text-lg py-2">
