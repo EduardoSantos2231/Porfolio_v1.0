@@ -5,15 +5,13 @@ import ContactCard from "@/components/ContactCard";
 
 export default function Contact() {
   return (
-    <div className="flex w-full gap-3 my-10 flex-col items-center md:justify-center md:gap-5 relative overflow-hidden">
-      
-        <ContactCard callTo="Conecte-se comigo" icon={FaLinkedin} link="https://www.linkedin.com/in/edusn/" title="Linkedin"/>
+    <div className="flex w-full gap-3 my-10 items-center md:justify-center md:gap-5 relative overflow-hidden">
 
-        <div className="size-80 bg-radial from-blue-500 opacity-90 to-blue-500 rounded-full float absolute top-10 -left-50 md:-left-44"></div>
-
-        <ContactCard callTo="Veja meus códigos" icon={FaGithub} link="https://github.com/EduardoSantos2231" title="Github"/>
-
-        <ContactCard callTo="Entre em contato" icon={CiMail} link="mailto:denoticiadose@gmail.com" title="Email"/>
+        <span className="purple-glass p-10 flex flex-col gap-3">
+          <ContactCard callTo="Conecte-se comigo" icon={FaLinkedin} link="https://www.linkedin.com/in/edusn/" title="Linkedin"/>
+          <ContactCard callTo="Veja meus códigos" icon={FaGithub} link="https://github.com/EduardoSantos2231" title="Github"/>
+          <ContactCard callTo="Entre em contato" icon={CiMail} link="mailto:denoticiadose@gmail.com" title="Email"/>
+        </span>
       
     </div>
   )
