@@ -4,19 +4,21 @@ import { MdDownload } from "react-icons/md";
 
 export default function About() {
   return (
-    <div className="flex w-full m-4 p-4 flex-col md:justify-around gap-4 ">
+    <div className="flex w-full m-4 p-4 flex-col md:justify-center items-center gap-4 ">
 
         <div className="justify-center flex">
             <img className="size-40 md:size-60 rounded-full border-4" src={photo_preview} alt="Eduardo sorrindo" />
         </div>
 
-        <div className="flex flex-col md:flex-row gap-5">
-        <span className="flex gap-3 items-center justify-center">
+        <span className="inline-block">
             <a href="https://drive.google.com/file/d/16zNo-oafsyV4uQkbpI7yOeaeGJIifTn7/view?usp=sharing" className="p-4 rounded flex gap-2 items-end"> 
             <MdDownload size={30}/>
             <Descriptional title="Veja meu currículo" description=""/>
             </a>
         </span>
+
+        <div className="flex flex-col md:flex-row gap-5">
+
         
             <span className="purple-glass w-fit p-3">
                 <Descriptional title="Quem eu sou?"  description="Olá! Sou Eduardo, um estudante de Engenharia de Software no 
