@@ -1,6 +1,3 @@
-
-import GrayBubble from "@/components/GrayBubble";
-import PinkBubble from "@/components/PinkBubble";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
@@ -17,8 +14,6 @@ export default function Contact() {
         <ContactCard callTo="Veja meus códigos" icon={FaGithub} link="https://github.com/EduardoSantos2231" title="Github"/>
 
         <ContactCard callTo="Entre em contato" icon={CiMail} link="mailto:denoticiadose@gmail.com" title="Email"/>
-        <PinkBubble/>
-        <GrayBubble/>
       
     </div>
   )
