@@ -19,9 +19,9 @@ export default function Card({title, description, link}: cardsData) {
             <p className="text-justify">{description}</p>
         </div>
 
-        <div className="flex justify-center">
-            <p className="bg-blue-600 hover:scale-110 transition hover:opacity-90 text-lg p-2 rounded-sm font-semibold ">
-              <a className="flex gap-2" target="_blank" href={link}><FaExternalLinkAlt size={30}/>Ver</a>
+        <div className="flex justify-center p-2">
+            <p className="hover:scale-110 transition hover:opacity-90 text-lg p-2 rounded-sm font-semibold hover:shadow-2xs shadow-purple-300">
+              <a className="flex gap-2 items-center" target="_blank" href={link}><FaExternalLinkAlt size={20}/>Ver</a>
             </p>
         </div>
 
