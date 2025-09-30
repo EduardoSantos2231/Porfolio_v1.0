@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import '@/index.css'
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
+import {createHashRouter as createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Layout from '@/Layout.tsx'
 import {Projects, Hello, NotFound, About, Contact} from '@/Screens/imports'
 
@@ -15,7 +15,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='contact' element={<Contact/>} />
     <Route path='*' element={<NotFound/>}/>
   </Route>
-), {basename: "/porfolio_v1.0"})
+))
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
