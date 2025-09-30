@@ -10,7 +10,7 @@ export default function Layout() {
   return (
     <div className="min-h-dvh wrap-anywhere p-2 relative">
       <div className="absolute inset-0 z-0 w-full min-h-dvh">
-        <DarkVeil noiseIntensity={0.1} warpAmount={5}/>
+        <DarkVeil noiseIntensity={0.1} warpAmount={3}/>
       </div>
       <main className="relative z-10">
         <Header/>
