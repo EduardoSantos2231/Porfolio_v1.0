@@ -1,5 +1,4 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
-import AnimatedContent from '@/components/AnimatedContent'
 
 interface cardsData{
     title: string,
@@ -10,18 +9,8 @@ interface cardsData{
 
 export default function Card({title, description, link}: cardsData) {
   return (
-    <AnimatedContent
-        distance={140}
-        direction="vertical"
-        reverse={true}
-        duration={1.2}
-        ease="elastic.out"
-        initialOpacity={0.2}
-        scale={1.1}
-        threshold={0.2}
-        delay={0.3}>
-      <div className="rounded-sm w-72 h-70 text-center flex flex-col p-6 purple-glass gap-2">
-
+    
+      <div className="rounded-sm w-72 h-70 text-center flex flex-col p-6 purple-glass m-3">
 
         <div className="my-auto">
             <h1 className="font-bold h-11 text-2xl underline decoration-2 decoration-blue-500">
@@ -29,14 +18,13 @@ export default function Card({title, description, link}: cardsData) {
             </h1>
             <p className="text-justify">{description}</p>
         </div>
+
         <div className="flex justify-center">
             <p className="bg-blue-600 hover:scale-110 transition hover:opacity-90 text-lg p-2 rounded-sm font-semibold ">
               <a className="flex gap-2" target="_blank" href={link}><FaExternalLinkAlt size={30}/>Ver</a>
             </p>
         </div>
-        </div>
-      </AnimatedContent>
-        
 
+      </div>
   )
 }
