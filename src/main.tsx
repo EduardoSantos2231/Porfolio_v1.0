@@ -8,7 +8,7 @@ import {Projects, Hello, NotFound, About, Contact} from '@/Screens/imports'
 
 
 const router = createBrowserRouter(createRoutesFromElements(
-  <Route path='/' element = {<Layout/>}>
+  <Route path='' element = {<Layout/>}>
     <Route index element={<Hello/>}/>
     <Route path='projects' element={<Projects/>}/>
     <Route path='about' element={<About/>} />
