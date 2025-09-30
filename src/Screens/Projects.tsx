@@ -5,7 +5,7 @@ import Card from "@/components/Card"
 
 export default function Projects() {
   return (
-    <div className="min-w-full flex flex-col md:flex-row items-center justify-center mt-5 gap-4 flex-wrap">
+    <div className="min-w-full flex flex-col md:flex-row items-center justify-center mt-5 gap-4 flex-wrap md:items-start">
 
           <Card title="Timer" description="Um projeto que realizei durante a fase de aprendizado de 
           manipulação do DOM e funções nativas do javascript, implementei funções de pausar, continuar e começar o timer." 
