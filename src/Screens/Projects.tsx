@@ -1,5 +1,4 @@
 import Card from "@/components/Card"
-import Descriptional from "@/components/Descriptional"
 
 
 
