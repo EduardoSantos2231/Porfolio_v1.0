@@ -5,7 +5,7 @@ import ContactCard from "@/components/ContactCard";
 
 export default function Contact() {
   return (
-    <div className="flex w-full gap-3 my-10 items-center md:justify-center md:gap-5 relative overflow-hidden">
+    <div className="flex w-full my-10 items-center justify-center relative overflow-hidden">
 
         <span className="purple-glass p-10 flex flex-col gap-3">
           <ContactCard callTo="Conecte-se comigo" icon={FaLinkedin} link="https://www.linkedin.com/in/edusn/" title="Linkedin"/>
