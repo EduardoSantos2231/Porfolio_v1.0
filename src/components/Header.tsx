@@ -6,7 +6,7 @@ export default function Header() {
         <header className="flex w-full mx-2 items-center">
 
             <div className="mr-auto flex gap-5 items-center">
-              <h1 className=" md:text-4xl ">Eduardo</h1>
+              <h1 className=" md:text-4xl "><Link to={"/"}>Eduardo</Link></h1>
             </div>
 
             <nav className="p-2">
