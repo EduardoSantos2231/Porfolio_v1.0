@@ -11,6 +11,12 @@ export default function About() {
         </div>
 
         <div className="flex flex-col md:flex-row gap-5">
+        <span className="flex gap-3 items-center justify-center">
+            <a href="https://drive.google.com/file/d/16zNo-oafsyV4uQkbpI7yOeaeGJIifTn7/view?usp=sharing" className="p-4 rounded flex gap-2 items-end"> 
+            <MdDownload size={30}/>
+            <Descriptional title="Veja meu currículo" description=""/>
+            </a>
+        </span>
         
             <span className="purple-glass w-fit p-3">
                 <Descriptional title="Quem eu sou?"  description="Olá! Sou Eduardo, um estudante de Engenharia de Software no 
@@ -65,12 +71,6 @@ export default function About() {
         </div>
 
         </div>
-        <span className="flex gap-3 items-center justify-center">
-            <a href="https://drive.google.com/file/d/16zNo-oafsyV4uQkbpI7yOeaeGJIifTn7/view?usp=sharing" className="p-4 rounded flex gap-2 items-end"> 
-            <MdDownload size={30}/>
-            <Descriptional title="Veja meu currículo" description=""/>
-            </a>
-        </span>
 
     </div>
   )
