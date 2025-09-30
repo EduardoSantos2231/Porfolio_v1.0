@@ -8,11 +8,11 @@ import DarkVeil from '@/components/DarkVeil';
 
 export default function Layout() {
   return (
-    <div className="min-h-dvh wrap-anywhere p-2 relative">
-      <div className="absolute inset-0 z-0 w-full min-h-dvh">
-        <DarkVeil noiseIntensity={0.1} warpAmount={3}/>
+    <div className="min-h-dvh wrap-anywhere relative">
+      <div className="fixed inset-0 z-0">
+        <DarkVeil noiseIntensity={0.12} warpAmount={3}/>
       </div>
-      <main className="relative z-10">
+      <main className="relative z-10 min-h-dvh">
         <Header/>
           <App>
             <Outlet/>
