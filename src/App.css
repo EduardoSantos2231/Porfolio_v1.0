@@ -13,3 +13,13 @@
 .float {
   animation: float 4s ease-in-out infinite;
 }
+
+.purple-glass{
+  /* From https://css.glass */
+  background: rgba(152, 78, 229, 0.15);
+  border-radius: 14px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.6px);
+  -webkit-backdrop-filter: blur(1.6px);
+  border: 1px solid rgba(152, 78, 229, 0.3);
+}
