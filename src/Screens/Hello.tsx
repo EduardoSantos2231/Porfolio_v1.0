@@ -24,14 +24,14 @@ export default function Hello() {
         </section>
         
         <section className="flex flex-col items-center py-50" id="projetos">
-            <h1 className="text-4xl font-bold md:text-5xl mb-12">Projetos Recentes</h1>
+            <h1 className="text-4xl font-extralight md:text-5xl mb-12">Projetos Recentes</h1>
             <div>
               <Projects/>
             </div>
         </section>
 
         <section className="flex flex-col items-center py-50" id="contatos">
-            <h1 className="text-4xl font-bold md:text-5xl mb-12">Entre com contato comigo</h1>
+            <h1 className="text-4xl font-extralight md:text-5xl mb-12">Entre com contato comigo</h1>
             <Contact/>
         </section>
   
