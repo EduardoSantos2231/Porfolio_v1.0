@@ -18,23 +18,26 @@ export default function Hello() {
                   </h1>
             </FadeContent>
         </section>
-
-        <section id="sobre" className="flex justify-center py-20">
-          <About/>
-        </section>
-        
-        <section className="flex flex-col items-center py-50" id="projetos">
-            <h1 className="text-4xl font-extralight md:text-5xl mb-12">Projetos Recentes</h1>
-            <div>
-              <Projects/>
-            </div>
-        </section>
-
-        <section className="flex flex-col items-center py-50" id="contatos">
-            <h1 className="text-4xl font-extralight md:text-5xl mb-12">Entre com contato comigo</h1>
-            <Contact/>
-        </section>
+        <div className="flex justify-center flex-col">
   
+            <section id="sobre" className="flex justify-center py-20">
+              <About/>
+            </section>
+    
+            <section className="flex flex-col items-center py-50" id="projetos">
+                <h1 className="text-4xl font-extralight md:text-5xl mb-12">Projetos Recentes</h1>
+                <div>
+                  <Projects/>
+                </div>
+            </section>
+    
+            <section className="flex flex-col items-center py-50" id="contatos">
+                <h1 className="text-4xl font-extralight md:text-5xl mb-12">Entre com contato comigo</h1>
+                <Contact/>
+            </section>
+  
+      </div>
+      
       </div>
     </div>
   )
