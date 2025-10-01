@@ -1,36 +1,40 @@
-
 import "@/App.css"
-import { Link } from "react-router-dom";
-import AnimatedContent from '@/components/AnimatedContent'
-import Magnet from '@/components/Magnet'
+import FadeContent from '@/components/FadeContent'
+import About from "./About"
+import Projects from "./Projects"
+
 
 export default function Hello() {
-
   
   return (
-    <div className="flex relative items-center justify-center w-full overflow-hidden">
-        <AnimatedContent
-        distance={140}
-        direction="vertical"
-        reverse={true}
-        duration={1.2}
-        ease="elastic.out"
-        initialOpacity={0.2}
-        scale={1.1}
-        threshold={0.2}
-        delay={0.3}>
+    <div className="min-w-full">
+      <div className="mx-5 flex flex-col">
 
-         
-        <Magnet padding={100} disabled={false} magnetStrength={3}>
-          <button className="text-white bg-gradient-to-br p-4 rounded-2xl text-2xl font-extrabold transition cursor-pointer purple-glass">
-          <Link to={"/about"}>Sobre mim</Link> 
-          </button>
-        </Magnet>
+        <section className="min-h-dvh flex flex-col justify-center items-center text-center py-20">
+             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={10}>
+                  <h1 className="text-4xl font-extralight md:text-6xl max-w-4xl tracking-tight leading-tight">
+                    TRANSFORME A SUA IDEIA EM ALGO CONCRETO.
+                  </h1>
+            </FadeContent>
+        </section>
 
-      </AnimatedContent>
-    
+        <section id="sobre" className="flex justify-center py-20">
+          <About/>
+        </section>
         
-    
+        <section className="flex flex-col items-center py-20" id="projetos">
+            <h1 className="text-4xl font-bold md:text-5xl mb-12">Projetos Recentes</h1>
+            <div>
+              <Projects/>
+            </div>
+        </section>
+
+        <section className="flex flex-col items-center py-20" id="contatos">
+            <h1 className="text-4xl font-bold md:text-5xl mb-12">Fale Comigo</h1>
+            <p className="text-lg">Pronto para começar? Envie uma mensagem!</p>
+        </section>
+  
+      </div>
     </div>
   )
 }

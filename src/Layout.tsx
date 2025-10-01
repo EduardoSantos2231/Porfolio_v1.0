@@ -1,27 +1,20 @@
 import Header from "@/components/Header";
-import {Outlet} from "react-router-dom"
-import App from "./App";
 import DarkVeil from '@/components/DarkVeil';
-
-
+import Hello from "./Screens/Hello";
 
 
 export default function Layout() {
   return (
-    <div className="min-h-dvh wrap-anywhere relative">
-      <div className="fixed inset-0 z-0">
+    <div className="min-h-dvh wrap-anywhere relative text-white">
+      <div className="fixed inset-0 z-0 h-dvh"> {/* Adicionei h-dvh para garantir a altura do fundo */}
         <DarkVeil noiseIntensity={0.12} warpAmount={3}/>
       </div>
       <main className="relative z-10 min-h-dvh">
         <Header/>
-          <App>
-            <Outlet/>
-          </App>
+        <Hello/> 
       </main>
     </div>
     
     
   )
 }
-
-

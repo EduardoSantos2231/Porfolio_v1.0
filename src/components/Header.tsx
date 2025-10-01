@@ -1,20 +1,24 @@
-import { Link } from "react-router-dom"
 
+import GooeyNav from './GooeyNav'
 export default function Header() {
+  const items = [
+    { label: "Sobre", href: "#sobre" },
+    { label: "Projetos", href: "#projetos" },
+    { label: "Contatos", href: "#contatos" }];
   return (
     <div className="flex text-white font-bold font-stretch-condensed md:text-xl text-lg py-2">
         <header className="flex w-full mx-2 items-center">
 
-            <div className="mr-auto flex gap-5 items-center">
-              <h1 className=" md:text-4xl "><Link to={"/"}>Eduardo</Link></h1>
-            </div>
-
-            <nav className="p-2">
-            <ul className="flex gap-4 text-sm md:text-lg">
-              <li className="hover:underline ease-in hover:decoration-blue-600 hover:scale-110 transition"><Link to={"contact"}>Contato</Link></li>
-              <li className="hover:underline ease-in hover:decoration-blue-600 hover:scale-110 transition"><Link to={"about"}>Sobre mim</Link></li>
-              <li className="hover:underline ease-in hover:decoration-blue-600 hover:scale-110 transition"><Link to={"projects"}>Projetos</Link></li>
-            </ul>
+            <nav className="p-2 h-fit ml-auto">
+              <GooeyNav
+              items={items}
+              particleCount={15}
+              particleDistances={[90, 10]}
+              particleR={100}
+              initialActiveIndex={0}
+              animationTime={600}
+              timeVariance={300}
+              colors={[1, 2, 3, 1, 2, 3, 1, 4]}/>
             </nav>
         </header>
     </div>
