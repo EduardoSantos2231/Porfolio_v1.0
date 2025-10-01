@@ -6,10 +6,10 @@ export default function Header() {
     { label: "Projetos", href: "#projetos" },
     { label: "Contatos", href: "#contatos" }];
   return (
-    <div className="flex text-white font-bold font-stretch-condensed md:text-xl text-lg py-2">
+    <div className="flex text-white font-bold font-stretch-condensed md:text-xl text-lg py-2 fixed top-0 right-0">
         <header className="flex w-full mx-2 items-center">
 
-            <nav className="p-2 h-fit ml-auto">
+            <nav className="p-2 h-fit">
               <GooeyNav
               items={items}
               particleCount={15}
