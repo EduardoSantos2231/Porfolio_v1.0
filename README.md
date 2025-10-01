@@ -43,7 +43,7 @@ As seguintes ferramentas e tecnologias foram utilizadas neste projeto:
     * **Vite:** Empacotador (bundler) extremamente rápido para desenvolvimento.
 * **Linguagens:**
     * **TypeScript:** Adiciona tipagem estática ao JavaScript, aumentando a segurança e manutenibilidade do código.
-    * **HTML & CSS:** Estrutura e estilização.
+    * **HTML & CSS & Tailwind:** Estrutura e estilização.
 
 ---
 
@@ -95,3 +95,4 @@ npm run dev
 ```
 
 Agora basta seguir o link que aparece no seu terminal.
+
