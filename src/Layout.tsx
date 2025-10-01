@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import DarkVeil from '@/components/DarkVeil';
-import Hello from "./Screens/Hello";
+import Hello from "./screens/Hello";
 
 
 export default function Layout() {
