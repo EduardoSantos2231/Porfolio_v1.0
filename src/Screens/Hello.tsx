@@ -18,6 +18,7 @@ export default function Hello() {
                   </h1>
             </FadeContent>
         </section>
+        
         <div className="flex justify-center flex-col">
   
             <section id="sobre" className="flex justify-center py-20">
