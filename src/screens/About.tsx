@@ -27,11 +27,7 @@ export default function About() {
                         e pelo desejo de dominar novas tecnologias. Fora das telas, encontro 
                         equilíbrio e foco nos esportes, como o MMA e o levantamento de peso, 
                         que me ensinam a importância da disciplina e da superação. A mesma 
-                        dedicação que aplico nos treinos, eu levo para o código. Nos momentos 
-                        de pausa, recarrego as energias com a leitura, explorando a mente de 
-                        grandes autores como Dostoiévski e Orwell, que, com suas obras-primas 
-                        como Memórias do Subsolo e 1984, me inspiram a pensar de forma crítica 
-                        e a ver o mundo sob diferentes perspectivas."/>
+                        dedicação que aplico nos treinos, eu levo para o código."/>
             </span>
 
             <span className="purple-glass w-fit p-3">
