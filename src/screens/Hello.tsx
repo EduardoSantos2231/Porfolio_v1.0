@@ -37,7 +37,7 @@ export default function Hello() {
 
           <section className="flex flex-col items-center py-50" id="contatos">
             <h1 className="text-4xl font-extralight md:text-5xl mb-12">
-              Entre com contato comigo
+              Entre em contato comigo
             </h1>
             <Contact />
           </section>
