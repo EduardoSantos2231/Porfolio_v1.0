@@ -36,7 +36,7 @@ export default function About() {
                         infância, com a ideia de dar 'vida' às máquinas. Sempre me impressionei 
                         com a robótica e com a forma como o código, que parecia uma espécie de magia, 
                         podia criar mundos e funcionalidades do zero. O que me move hoje é a oportunidade 
-                        de transformar conceitos abstratos em algo tangível e funcional. Para mim, programar não é apenas escrever linhas de código, mas sim resolver problemas, inovar e construir ferramentas que impactam a vida das pessoas. 
+                        de transformar conceitos abstratos em algo tangível e funcional. Para mim, programar é como um super poder, posso resolver problemas, inovar e construir ferramentas que impactam a vida das pessoas. 
                         É essa paixão pela criação e pela resolução de desafios que me 
                         mantém motivado a aprimorar minhas habilidades a cada dia."/>
             </span>
