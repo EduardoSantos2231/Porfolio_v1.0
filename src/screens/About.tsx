@@ -45,7 +45,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row gap-5">
 
         <div className="purple-glass p-3">
-            <Descriptional title="Tecnologias e habilidades" description="Minha base de conhecimento e as ferramentas que utilizo para dar vida aos meus projetos
+            <Descriptional title="Tecnologias" description="Minha base de conhecimento e as ferramentas que utilizo para dar vida aos meus projetos
                     são as seguintes:"/>
             <div className="flex w-full flex-col">
                 <ul className="underline decoration-1 decoration-blue-500 text-lg">
