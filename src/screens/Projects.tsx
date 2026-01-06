@@ -14,7 +14,7 @@ export default function Projects() {
           link="https://github.com/EduardoSantos2231/screenshotshareapi" />
 
         <Card title="Cadastro de produtos" description="Um CRUD fundamental para entender sobre o funcionamento de apis no express, bem como  a integração com React"
-          link="https://github.com/EduardoSantos2231/screenshotshareapi" />
+          link="https://github.com/EduardoSantos2231/fullstack_cadastro_produtos" />
 
       </div>
     </div>
