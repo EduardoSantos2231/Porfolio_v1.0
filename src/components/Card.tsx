@@ -8,7 +8,7 @@ interface cardsData {
 
 export default function Card({ title, description, link }: cardsData) {
   return (
-    <div className="rounded-sm w-72 h-70 text-center flex flex-col p-6 purple-glass m-3">
+    <div className="rounded-sm text-center flex flex-col p-6 purple-glass m-3">
       <div className="my-auto">
         <h1 className="font-light h-11 text-2xl">{title}</h1>
         <p className="text-justify">{description}</p>
